@@ -35,7 +35,7 @@ dataset = issues
 
 ```bash
 python cortex-issue-resolver.py \
-  --api-key-id "28" \
+  --api-key-id "YOUR_API_KEY_ID" \
   --api-key "YOUR_API_KEY" \
   --url "https://api-xxx.xdr.eu.paloaltonetworks.com" \
   --xql 'dataset = issues | filter xdm.issue.status.progress in (IN_PROGRESS, NEW)'
